@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2b2b2b;
+  font-weight: bold;
+}
+
+/***** GRID *****/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1 {
+    padding: 38px 0px;
+    font-family: 'Lato', sans-serif;
+    color: #4BA520;
+    text-transform: uppercase;
+    font-weight: bolder;
+    float: left;
+    margin: 0;
+}
+
+header h1 span {
+    color: #2b2b2b;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #4BA520;
+}
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h2 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** WORK *****/
+
+.section-one,
+.section-two,
+.section-three {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #EDEDED;
+}
+
+.section-one h3 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px 30px;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 16px;
+    color: #4BA520;
+    padding: 0;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/***** CLOSING *****/
+
+footer {
+    height: 50px;
+    font-size: 16px;
+    color: #2b2b2b;
+    border-top: 3px solid #eee;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    clear: both;
+}
+
+footer span {
+    color: #4BA520;
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: bold;
+}
